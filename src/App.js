@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function App() {
   const [projects, setProjects] = useState([]);
-  const baseURLProject = '/projects';
+  const baseURLProject = '/repository';
 
   useEffect(()=>{
     const getProjects = async ()=>{
